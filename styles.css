@@ -1,6 +1,6 @@
 * {
     /* outline: red solid 1px; */
-
+    font-family: sans-serif;
 }
 body {
     background-color: #1f2937;
@@ -33,14 +33,17 @@ body {
 }
 
 .sec {
-
+     color: #e5e7eb;
 }
 
 .second {
+
     display: flex;
     justify-content: center;
     /* gap: 15px; */
     padding: 70px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 button {
@@ -53,7 +56,7 @@ button {
   font-size: 16px
 }
 .hero {
-    max-width: 700px;
+    max-width: 500px;
     margin-right: 10px;
 }
 
@@ -66,7 +69,7 @@ img {
     display: flex;
     justify-content: space-evenly;
     font-size: 36px;
-    padding: 20px;
+    padding: 30px;
     color: #1f2937;
     font-weight: bold;
     font-family: sans-serif;
@@ -76,12 +79,127 @@ img {
     background-color: #f9faf8;
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+    flex-shrink: 1;
+    font-size: 28px;
+    color: #57585a;
 }
 
 .pic {
-    width: 200px;
-    height: 150px;
+    max-width: 200px;
+    max-height: 150px;
     border: 3px solid #3882f6;
     border-radius: 15px;
 }
+
+.fourth p {
+
+    max-width: 200px;}
+
+.fifth{
+        background-color: #e5e7eb;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* flex-direction: column; */
+
+}
+.fifth p {
+    max-width: 900px;
+    font-size: 32px;
+    color: #1f2937;
+    quotes: initial;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.para {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+#name {
+    font-weight: 900;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.sixth {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    background-color: #3882f6;
+    padding: 10px 90px;
+    margin: 50px;
+    border-radius: 7px;
+    display: flex;
+    gap: 30px
+
+}
+
+.p1 {
+    font-weight: 800;
+    /* outline: 1px solid red; */
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.p2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.words {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    /* outline: 1px solid red; */
+}
+
+.butt {
+    display: flex;
+    align-items: center;   
+    margin-bottom: 12px;
+}
+
+.but {
+    border: #f9faf8 1px solid;
+    margin-left: 10px;
+}
+
+.seven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
