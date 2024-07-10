@@ -5,6 +5,11 @@
 body {
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-between;
     /* outline: red solid 1px; */
 }
 .header {
@@ -15,6 +20,10 @@ body {
 
     font-family:Verdana;
     
+}
+
+.fourth img {
+    height: 50vh;
 }
 
 .links{
@@ -42,6 +51,7 @@ body {
     justify-content: center;
     /* gap: 15px; */
     padding: 70px 30px;
+    flex-shrink: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -72,6 +82,7 @@ img {
     padding: 30px;
     color: #1f2937;
     font-weight: bold;
+    margin: 0px;
     font-family: sans-serif;
 }
 
